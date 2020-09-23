@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Form Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1><img src="pizzaLogo.png" alt="Pizza Logo" width="32" length="32">Pizza Order Form</h1>
     <form action="" method="POST">
-        <fieldset>
+        <fieldset class="field_set">
             <legend>User Information</legend>
             <ul>
                 <li><label for="username">Username:</label>
@@ -17,7 +19,7 @@
                 <input type="password" id="PW" name="user.PW"></li>
             </ul>
         </fieldset>
-        <fieldset>
+        <fieldset class="field_set_2">
             <legend>What drink do you want?</legend>
             <ul>
                 <li>
@@ -42,7 +44,7 @@
                 </label></li>
             </ul>
         </fieldset>
-        <fieldset>
+        <fieldset class="field_set_3">
             <legend>Pizza Preference</legend>
             <ul>
                 <label for="toppings"></label>
@@ -52,7 +54,7 @@
                 <li><input type="checkbox" id="toppings" name="user.toppings.Sausage" >Sausage</li>
             </ul>
         </fieldset>
-        <fieldset>
+        <fieldset class="field_set_4">
             <legend>Special Instructions</legend>
             <ul>
             <li><label for="notes">Special Instructions:</label></li>
