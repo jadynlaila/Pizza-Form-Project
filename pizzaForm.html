@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Form Project</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <fieldset>
+            <legend>User Information</legend>
+            <ul>
+                <li><label for="username">Username:</label>
+                <input type="text" id="username" name="user.name"></li>
+                
+                <li><label for="password">Password:  </label>
+                <input type="text" id="password" name="user.name"></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>What drink do you want?</legend>
+            <ul>
+                <li>
+                <label for="drink_1">
+                    <input type="radio" id="Coke" name="user.coke" value="A">
+                    Coke
+                </label></li>
+                <li>
+                <label for="drink_2">
+                    <input type="radio" id="Diet Coke" name="user.dietcoke" value="A">
+                    Diet Coke
+                </label></li>
+                <li>
+                <label for="drink_3">
+                    <input type="radio" id="Sprite" name="user.sprite" value="A">
+                    Sprite
+                </label></li>
+                <li>
+                <label for="drink_4">
+                    <input type="radio" id="Water" name="user.water" value="A">
+                    Water
+                </label></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Pizza Preference</legend>
+            <ul>
+                <li><input type="checkbox" id="toppings" name="user.toppings.Plain" >Plain</li>
+                <li><input type="checkbox" id="toppings" name="user.toppings.Pepperoni" >Pepperoni</li>
+                <li><input type="checkbox" id="toppings" name="user.toppings.Chicken" >Chicken</li>
+                <li><input type="checkbox" id="toppings" name="user.toppings.Sausage" >Sausage</li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Special Instructions</legend>
+            <ul>
+            <li><label for="notes">Special Instructions:</label></li>
+            <textarea id="notes" name="user.notes" cols="30" rows="10"></textarea>
+            </ul>
+            <button type="submit">Submit Order</button>
+        </fieldset>
+
+
+
+
+
+
+    </form>
+</body>
+</html>
